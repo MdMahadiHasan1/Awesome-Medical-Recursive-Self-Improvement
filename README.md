@@ -186,7 +186,6 @@ Improved Improvement Strategy_(t+1)
 ---
 
 <a name="safety-reliability-governance"></a>
-
 # 🛡️ Safety, Reliability & Governance
 
 Self-improving medical AI must ensure that improvements do not introduce new clinical risks, amplify hallucinations, corrupt learned experience, or degrade previously acquired capabilities. Medical-RSI therefore requires **continuous safety evaluation, groundedness verification, failure detection, uncertainty-aware behavior, no-regression mechanisms, and governed model updates**.

@@ -199,8 +199,6 @@ Improved Improvement Strategy_(t+1)
 | 2025 | [DrAgent](https://aclanthology.org/2025.findings-emnlp.848/)                                                                                                           | EMNLP Findings       | Recursive curriculum optimization for increasingly difficult clinical reasoning `Persistent-SI`    |
 | 2025 | [FRAME](https://aclanthology.org/2025.findings-acl.400/)                                                                                                               | ACL Findings         | Generator–evaluator–reflector iterative refinement `Inference-SI`                                  |
 
-> **Research gap:** Fully recursive medical systems that jointly improve their **model, data, memory, tools, evaluator, workflow, and improvement strategy** under clinically validated safety constraints remain largely unexplored.
-
 ---
 
 <a name="safety-reliability-governance"></a>

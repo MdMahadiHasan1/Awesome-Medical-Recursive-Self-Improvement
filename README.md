@@ -19,7 +19,7 @@ data, or accumulated experience to improve future behavior.
 
 # 📚 Overview
 
-- [Surveys & Perspectives](#-surveys--perspectives)
+- [Surveys](#-surveys)
 - [Model Self-Improvement](#-model-self-improvement)
 - [Data Self-Improvement](#-data-self-improvement)
 - [Memory & Knowledge Self-Improvement](#-memory--knowledge-self-improvement)
@@ -32,7 +32,7 @@ data, or accumulated experience to improve future behavior.
 
 ---
 
-# 📖 Surveys & Perspectives
+# 📖 Surveys
 
 Research defining the foundations of medical agents, self-evolving clinical systems,
 medical reasoning, feedback, and reliability.

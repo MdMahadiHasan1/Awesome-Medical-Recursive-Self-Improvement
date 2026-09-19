@@ -214,7 +214,6 @@ Self-improving medical AI must ensure that improvements do not introduce new cli
 ---
 
 <a name="datasets"></a>
-
 # 🗂️ Datasets
 
 Medical-RSI requires more than static medical QA datasets. Particularly valuable resources provide **reasoning trajectories, generated-and-refined data, verifiable feedback, failure annotations, persistent interaction, executable environments, or longitudinal evaluation**.

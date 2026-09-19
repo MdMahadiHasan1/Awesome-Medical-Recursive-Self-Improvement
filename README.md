@@ -17,34 +17,6 @@
 their own interactions, predictions, feedback, failures, clinical environments, generated
 data, or accumulated experience to improve future behavior.
 
-A practical Medical-RSI loop can be represented as:
-
-> **Clinical Experience → Evaluation → Feedback → Improvement → Persistent Update → New Experience**
-
-The persistent update may modify:
-
-- **Model parameters or reasoning policies**
-- **Training data or curricula**
-- **Memory and medical knowledge**
-- **Tools, skills, and clinical workflows**
-- **Evaluators, verifiers, or reward models**
-- **Interaction policies with clinical environments**
-- **The improvement strategy itself**
-
-### RSI Maturity Tags
-
-| Tag | Meaning |
-|---|---|
-| `Meta-RSI` | The system persistently improves its own improvement/planning strategy |
-| `Persistent-SI` | Improvements persist through weights, memory, data, skills, or policies |
-| `Inference-SI` | Self-reflection/correction occurs within an inference episode |
-| `RSI-Enabler` | Dataset, evaluator, verifier, environment, or safety mechanism enabling RSI |
-
-> **Note:** This repository intentionally distinguishes recursive self-improvement from
-> ordinary fine-tuning, prompting, RAG, self-correction, and agentic inference.
-
----
-
 # 📚 Overview
 
 - [Surveys & Perspectives](#-surveys--perspectives)

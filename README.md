@@ -19,18 +19,20 @@ data, or accumulated experience to improve future behavior.
 
 # 📚 Overview
 
-- [Surveys](#-surveys)
-- [Model Self-Improvement](#-model-self-improvement)
-- [Data Self-Improvement](#-data-self-improvement)
-- [Memory & Knowledge Self-Improvement](#-memory--knowledge-self-improvement)
-- [Tool, Skill & Workflow Self-Improvement](#-tool-skill--workflow-self-improvement)
-- [Evaluator, Verifier & Feedback Improvement](#-evaluator-verifier--feedback-improvement)
-- [Environment-Driven Self-Improvement](#-environment-driven-self-improvement)
-- [Recursive Meta-Improvement](#-recursive-meta-improvement)
-- [Safety, Reliability & Governance](#-safety-reliability--governance)
+# 📚 Overview
 
+- [Surveys](#surveys)
+- [Model Self-Improvement](#model-self-improvement)
+- [Data Self-Improvement](#data-self-improvement)
+- [Memory & Knowledge Self-Improvement](#memory-knowledge-self-improvement)
+- [Tool, Skill & Workflow Self-Improvement](#tool-skill-workflow-self-improvement)
+- [Evaluator, Verifier & Feedback Improvement](#evaluator-verifier-feedback-improvement)
+- [Environment-Driven Self-Improvement](#environment-driven-self-improvement)
+- [Recursive Meta-Improvement](#recursive-meta-improvement)
+- [Safety, Reliability & Governance](#safety-reliability-governance)
+- [Datasets](#datasets)
 ---
-
+<a name="surveys"></a>
 # 📖 Surveys
 
 Research defining the foundations of medical agents, self-evolving clinical systems,
@@ -43,7 +45,7 @@ medical reasoning, feedback, and reliability.
 | 2025 | [Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models](https://aclanthology.org/2025.findings-acl.350/) | ACL Findings | `Safety / Evaluation` |
 
 ---
-
+<a name="model-self-improvement"></a>
 # 🧠 Model Self-Improvement
 
 Methods that improve medical models through reinforcement learning, continual learning,
@@ -67,7 +69,7 @@ self-correction, adaptation, curriculum learning, or learned reasoning policies.
 | 2025 | [Progressive Test Time Energy Adaptation for Medical Image Segmentation](https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Progressive_Test_Time_Energy_Adaptation_for_Medical_Image_Segmentation_ICCV_2025_paper.html) | ICCV 2025 | Progressive adaptation `Persistent-SI` |
 
 ---
-
+<a name="data-self-improvement"></a>
 # 🗃️ Data Self-Improvement
 
 Systems that automatically generate, critique, filter, repair, diversify, or prioritize
@@ -90,7 +92,7 @@ medical training examples.
 | 2025 | [Fleming-R1](https://arxiv.org/abs/2509.15279) | arXiv | Adaptive hard-example mining `Persistent-SI` |
 
 ---
-
+<a name="memory-knowledge-self-improvement"></a>
 # 🧾 Memory & Knowledge Self-Improvement
 
 Systems that accumulate reusable clinical experiences, successful strategies,
@@ -102,7 +104,7 @@ failure histories, or medical knowledge across tasks.
 | 2025 | [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://aclanthology.org/2025.acl-long.663/) | ACL 2025 | Long-term successful-process + tool-experience memory `Persistent-SI` |
 
 ---
-
+<a name="tool-skill-workflow-self-improvement"></a>
 # 🛠️ Tool, Skill & Workflow Self-Improvement
 
 Medical agents that improve tool use, clinical skills, planning strategies,
@@ -116,7 +118,7 @@ workflow execution, or reusable procedural knowledge.
 | 2025 | [MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at Scale](https://arxiv.org/abs/2506.04405) | arXiv | Tool/environment-based SFT + RL `Persistent-SI` |
 
 ---
-
+<a name="evaluator-verifier-feedback-improvement"></a>
 # ✅ Evaluator, Verifier & Feedback Improvement
 
 Evaluators and feedback systems are critical because recursive improvement is only
@@ -139,7 +141,7 @@ useful when the system can reliably distinguish **better from worse**.
 | 2025 | [MCQG-SRefine](https://aclanthology.org/2025.naacl-long.538/) | NAACL 2025 | Self-critique → correction → evaluation `Inference-SI` |
 
 ---
-
+<a name="environment-driven-self-improvement"></a>
 # 🌍 Environment-Driven Self-Improvement
 
 Systems that learn through interaction with executable clinical, biomedical,
@@ -153,7 +155,7 @@ EHR, FHIR, simulation, or research environments.
 | 2025 | [MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents](https://arxiv.org/abs/2501.14654) | arXiv | FHIR-compliant EHR environment `RSI-Enabler` |
 
 ---
-
+<a name="recursive-meta-improvement"></a>
 # 🔁 Recursive Meta-Improvement
 
 The highest level of Medical-RSI.

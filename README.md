@@ -229,21 +229,6 @@ Self-improving medical AI must ensure that improvement does not introduce new cl
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------ |
 | 2025 | [FUTURE-AI: International Consensus Guideline for Trustworthy and Deployable Artificial Intelligence in Healthcare](https://www.bmj.com/content/388/bmj-2024-081554) | The BMJ | Lifecycle governance across fairness, universality, traceability, usability, robustness, and explainability `Governance` |
 
-### Core Medical-RSI Safety Challenges
-
-* **Hallucination amplification** — incorrect outputs becoming future training evidence.
-* **Feedback / reward hacking** — optimizing evaluator scores without improving clinical correctness.
-* **Evaluator drift** — verifier quality becoming misaligned with the evolving system.
-* **Catastrophic forgetting** — adaptation degrading previously learned medical capabilities.
-* **Unsafe memory consolidation** — incorrect experience being stored as reusable clinical knowledge.
-* **Distribution shift** — improvement on one hospital, population, modality, or workflow failing elsewhere.
-* **Calibration & abstention** — recognizing uncertainty rather than reinforcing uncertain predictions.
-* **Data contamination & leakage** — preventing benchmark or private patient information from entering self-improvement loops.
-* **Auditability & traceability** — recording what changed, why it changed, and which feedback produced the update.
-* **Clinician oversight** — constraining high-risk autonomous updates through expert validation.
-
-> **Medical-RSI principle:** Higher task performance alone should not define successful self-improvement. Updates should also satisfy safety, reliability, calibration, traceability, and no-regression constraints.
-
 ---
 
 <a name="datasets"></a>

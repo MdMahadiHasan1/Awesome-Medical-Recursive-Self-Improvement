@@ -164,9 +164,7 @@ Systems that learn through interaction with executable clinical, biomedical, EHR
 
 # 🔁 Recursive Meta-Improvement
 
-The highest level of Medical-RSI.
-
-Instead of only improving answers or model weights, the system improves **how it learns, plans, evaluates, selects tools, constructs curricula, or modifies its own improvement strategy**.
+The highest level of Medical-RSI. Instead of only improving answers or model weights, the system improves **how it learns, plans, evaluates, selects tools, constructs curricula, or modifies its own improvement strategy**.
 
 ```text
 Experience_t

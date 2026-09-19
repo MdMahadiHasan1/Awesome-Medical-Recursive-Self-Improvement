@@ -28,7 +28,6 @@ data, or accumulated experience to improve future behavior.
 - [Environment-Driven Self-Improvement](#-environment-driven-self-improvement)
 - [Recursive Meta-Improvement](#-recursive-meta-improvement)
 - [Safety, Reliability & Governance](#-safety-reliability--governance)
-- [Datasets & Training Environments](#-datasets--training-environments)
 
 ---
 

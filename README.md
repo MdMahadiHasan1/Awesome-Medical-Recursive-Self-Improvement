@@ -17,6 +17,15 @@
 their own interactions, predictions, feedback, failures, clinical environments, generated
 data, or accumulated experience to improve future behavior.
 
+### RSI Tags
+
+| Tag | Meaning |
+|---|---|
+| `Meta-RSI` | The system persistently improves its own improvement/planning strategy |
+| `Persistent-SI` | Improvements persist through weights, memory, data, skills, or policies |
+| `Inference-SI` | Self-reflection/correction occurs within an inference episode |
+| `RSI-Enabler` | Dataset, evaluator, verifier, environment, or safety mechanism enabling RSI |
+
 # 📚 Overview
 
 - [Surveys](#-surveys)

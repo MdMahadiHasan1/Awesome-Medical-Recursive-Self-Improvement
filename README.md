@@ -13,8 +13,6 @@
 
 ---
 
-## 🩺 What is Medical Recursive Self-Improvement?
-
 **Medical Recursive Self-Improvement (Medical-RSI)** studies medical AI systems that use
 their own interactions, predictions, feedback, failures, clinical environments, generated
 data, or accumulated experience to improve future behavior.
@@ -32,9 +30,6 @@ The persistent update may modify:
 - **Evaluators, verifiers, or reward models**
 - **Interaction policies with clinical environments**
 - **The improvement strategy itself**
-
-The strongest form is **recursive meta-improvement**, where the system improves not only
-its medical capability, but also the **mechanism used to improve itself**.
 
 ### RSI Maturity Tags
 

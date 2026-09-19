@@ -102,9 +102,6 @@ failure histories, or medical knowledge across tasks.
 | 2026 | [HealthFlow: Automating Electronic Health Record Analysis via a Strategically Self-Evolving Multi-Agent Framework](https://www.nature.com/articles/s41746-026-03097-0) | npj Digital Medicine | Persistent strategic knowledge from successes/failures `Meta-RSI` |
 | 2025 | [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://aclanthology.org/2025.acl-long.663/) | ACL 2025 | Long-term successful-process + tool-experience memory `Persistent-SI` |
 
-> **Open problem:** Longitudinal patient-aware memory that can safely consolidate,
-> revise, forget, and validate learned clinical experience remains underexplored.
-
 ---
 
 # 🛠️ Tool, Skill & Workflow Self-Improvement

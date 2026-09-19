@@ -182,5 +182,3 @@ Meta-Evaluation
      ↓
 Improved Improvement Strategy_(t+1)
      ↺
-
----

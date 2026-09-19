@@ -177,6 +177,25 @@ Improvement Strategy
 └────────────────────────────────┘
      ↓
 Improved System_(t+1)
+
+<a name="safety-reliability-governance"></a>
+🛡️ Safety, Reliability & Governance
+
+Self-improving medical AI must ensure that improvement does not introduce new clinical risks, amplify hallucinations, propagate erroneous experience, or degrade previously acquired capabilities. Medical-RSI therefore requires continuous safety evaluation, grounding verification, failure detection, uncertainty-aware behavior, no-regression mechanisms, and governed model updates.
+
+Hallucination, Grounding & Clinical Error Detection
+Year	Paper / Resource	Venue	Safety / Reliability Role
+2025	MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models	EMNLP 2025	Controlled medical hallucination detection with 10K QA pairs RSI-Enabler
+2025	Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering	IJCAI 2025	HEAL-MedVQA evaluates visual grounding and hallucination robustness using 67K VQA pairs RSI-Enabler
+2025	MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes	ACL Findings 2025	Medical error detection and correction across diagnosis, management, treatment, pharmacotherapy, and causal-organism errors RSI-Enabler
+2025	Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models	ACL Findings 2025	Medical hallucination taxonomy, evaluation, detection, and mitigation Safety Survey
+Robustness, Forgetting & Safe Updating
+Year	Paper	Venue	Safety / Reliability Role
+2026	Continual Alignment for SAM: Rethinking Foundation Models for Medical Image Segmentation in Continual Learning	CVPR 2026 Findings	Continual adaptation with protection against catastrophic forgetting Persistent-SI
+2026	Benchmarking Large Language Model-Based Agent Systems for Clinical Decision Tasks	npj Digital Medicine	Evaluates clinical-agent reliability, tool use, hallucinations, and safeguards RSI-Enabler
+Governance & Lifecycle Control
+Year	Guideline / Paper	Venue	Governance Role
+2025	FUTURE-AI: International Consensus Guideline for Trustworthy and Deployable Artificial Intelligence in Healthcare	The BMJ	Lifecycle governance across fairness, universality, traceability, usability, robustness, and explainability Governance
      ↓
 Meta-Evaluation
      ↓

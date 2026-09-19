@@ -19,8 +19,6 @@ data, or accumulated experience to improve future behavior.
 
 # 📚 Overview
 
-# 📚 Overview
-
 - [Surveys](#surveys)
 - [Model Self-Improvement](#model-self-improvement)
 - [Data Self-Improvement](#data-self-improvement)

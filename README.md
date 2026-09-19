@@ -182,3 +182,67 @@ Meta-Evaluation
      ↓
 Improved Improvement Strategy_(t+1)
      ↺
+
+
+
+
+
+<a name="safety-reliability-governance"></a>
+
+# 🛡️ Safety, Reliability & Governance
+
+Self-improving medical AI must ensure that improvements do not introduce new clinical risks, amplify hallucinations, corrupt learned experience, or degrade previously acquired capabilities. Medical-RSI therefore requires **continuous safety evaluation, groundedness verification, failure detection, uncertainty-aware behavior, no-regression mechanisms, and governed model updates**.
+
+### Hallucination, Grounding & Clinical Error Detection
+
+| Year | Paper / Resource                                                                                                  | Venue             | Safety / Reliability Role                                                                                        |
+| ---- | ----------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------- |
+| 2025 | **MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models**             | EMNLP 2025        | Controlled hallucination detection benchmark with 10K medical QA pairs `RSI-Enabler`                             |
+| 2025 | **Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering**                       | IJCAI 2025        | HEAL-MedVQA; evaluates visual grounding and hallucination robustness using 67K VQA pairs `RSI-Enabler`           |
+| 2025 | **MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes**                               | ACL Findings 2025 | Detects and corrects diagnosis, management, treatment, pharmacotherapy, and causal-organism errors `RSI-Enabler` |
+| 2025 | **Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models** | ACL Findings 2025 | Taxonomy of medical hallucination, evaluation, detection, and mitigation `Safety Survey`                         |
+
+### Robustness, Forgetting & Safe Updating
+
+| Year | Paper                                                                                                              | Venue                | Safety / Reliability Role                                                                                 |
+| ---- | ------------------------------------------------------------------------------------------------------------------ | -------------------- | --------------------------------------------------------------------------------------------------------- |
+| 2026 | **Continual Alignment for SAM: Rethinking Foundation Models for Medical Image Segmentation in Continual Learning** | CVPR 2026 Findings   | Continual adaptation while mitigating catastrophic forgetting `Persistent-SI`                             |
+| 2026 | **Benchmarking Large Language Model-Based Agent Systems for Clinical Decision Tasks**                              | npj Digital Medicine | Evaluates agent reliability, hallucinations, tool use, latency, and safeguard effectiveness `RSI-Enabler` |
+
+### Governance & Lifecycle Control
+
+| Year | Guideline / Paper                                                                                                     | Venue   | Governance Role                                                                                                            |
+| ---- | --------------------------------------------------------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 2025 | **FUTURE-AI: International Consensus Guideline for Trustworthy and Deployable Artificial Intelligence in Healthcare** | The BMJ | Lifecycle governance covering fairness, universality, traceability, usability, robustness, and explainability `Governance` |
+---
+
+<a name="datasets"></a>
+
+# 🗂️ Datasets
+
+Medical-RSI requires more than static medical QA datasets. Particularly valuable resources provide **reasoning trajectories, generated-and-refined data, verifiable feedback, failure annotations, persistent interaction, executable environments, or longitudinal evaluation**.
+
+## Training & Self-Improvement Datasets
+
+| Year    | Dataset         |                                                                               Scale | Medical-RSI Role                                                                                              | Associated Work |
+| ------- | --------------- | ----------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------- | --------------- |
+| 2025    | **ReasonMed**   | 370K high-quality reasoning examples distilled from 1.75M generated reasoning paths | Multi-agent generation → verification → error refinement; supports recursive data improvement `Persistent-SI` | ReasonMed       |
+| 2025/26 | **MedAgentGym** |                                       72,413 executable tasks across 129 categories | Interactive feedback, trajectory generation, SFT and continued RL for medical agents `Persistent-SI`          | MedAgentGym     |
+| 2026    | **U-MRG-14K**   |                                                              14K multimodal samples | Clinical reasoning traces + pixel-level masks + verifiable grounding rewards `Persistent-SI / RSI-Enabler`    | MedReasoner     |
+
+## Safety, Hallucination & Verification Datasets
+
+| Year | Dataset         |                   Scale | Medical-RSI Role                                                                           | Associated Work             |
+| ---- | --------------- | ----------------------: | ------------------------------------------------------------------------------------------ | --------------------------- |
+| 2025 | **MedHallu**    | 10,000 medical QA pairs | Controlled easy/hard hallucination detection and evaluator development `RSI-Enabler`       | MedHallu                    |
+| 2025 | **HEAL-MedVQA** |           67K VQA pairs | Doctor-annotated pathological-region grounding and hallucination robustness `RSI-Enabler`  | Localizing Before Answering |
+| 2025 | **MEDEC**       |    3,848 clinical texts | Medical error detection and correction across five clinical error categories `RSI-Enabler` | MEDEC                       |
+
+## Interactive Environments & Agent Benchmarks
+
+| Year    | Dataset / Environment | Scale / Coverage                                                                                | Medical-RSI Role                                                                                                       |
+| ------- | --------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| 2026    | **EHRFlowBench**      | 100 expert-curated end-to-end EHR analysis tasks derived from screening 51,280 papers           | Evaluates planning, execution, artifact verification, recovery, and governed experience reuse `Meta-RSI / RSI-Enabler` |
+| 2026    | **AgentClinic**       | Multimodal simulated clinical interactions spanning 9 medical specialties and 7 languages       | Tests sequential decision-making, tools, retrieval, reflection, and persistent notebook memory `RSI-Enabler`           |
+| 2025    | **MedAgentBench**     | 300 physician-written tasks across 10 categories; 100 patient profiles with >700K data elements | FHIR-compliant interactive EHR environment for agent improvement and evaluation `RSI-Enabler`                          |
+| 2025/26 | **MedAgentGym**       | 72,413 executable medical/biomedical tasks                                                      | Environment feedback + verifiable outcomes + scalable training trajectories `Persistent-SI`                            |

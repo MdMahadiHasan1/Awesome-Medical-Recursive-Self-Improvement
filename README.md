@@ -196,6 +196,7 @@ Improved Improvement Strategy_(t+1)
 | 2025 | [ReflecTool](https://aclanthology.org/2025.acl-long.663/)                                                                                                              | ACL 2025             | Reuses accumulated experience to improve later tool selection and verification `Persistent-SI`     |
 | 2025 | [DrAgent](https://aclanthology.org/2025.findings-emnlp.848/)                                                                                                           | EMNLP Findings       | Recursive curriculum optimization for increasingly difficult clinical reasoning `Persistent-SI`    |
 | 2025 | [FRAME](https://aclanthology.org/2025.findings-acl.400/)                                                                                                               | ACL Findings         | Generator–evaluator–reflector iterative refinement `Inference-SI`                                  |
+| 2026 | [BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics](https://arxiv.org/abs/2608.16211) [[Code](https://github.com/AutoMedBench/Benchmark-as-Teacher)] | arXiv | **Benchmark-as-Teacher (BaT)** closes the evaluation → curriculum → training → re-evaluation loop: stage-level rubrics identify weaknesses, **BiCuRL** selects the next training curriculum from a Stage Bank, rubric-verified rollouts update the policy with GRPO, and the improved checkpoint is recursively returned to evaluation `Meta-RSI` |
 
 ---
 

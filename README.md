@@ -65,7 +65,6 @@ Methods that improve medical models through reinforcement learning, continual le
 | 2026 | [Shifting Adaptation from Weight Space to Memory Space: A Memory-Augmented Agent for Medical Image Segmentation](https://arxiv.org/abs/2603.05873) | arXiv | Dynamic working-memory adaptation with frozen backbone; continual/test-time adaptation `Persistent-SI` |
 | 2026 | [MedReasoner: Reinforcement Learning Drives Reasoning Grounding from Clinical Thought to Pixel-Level Precision](https://ojs.aaai.org/index.php/AAAI/article/view/38141) | AAAI 2026    | RL + grounding rewards `Persistent-SI`                |
 | 2025 | [GMAI-VL-R1: Harnessing Reinforcement Learning for Multimodal Medical Reasoning](https://arxiv.org/abs/2504.01886)                                                      | arXiv        | RL + rejection-sampled reasoning data `Persistent-SI` |
-| 2025 | [Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems](https://aclanthology.org/2025.findings-acl.751/)                                      | ACL Findings | Verifier-guided search + RL `Persistent-SI`           |
 | 2025 | [Fleming-R1: Toward Expert-Level Medical Reasoning via Reinforcement Learning](https://arxiv.org/abs/2509.15279)                                                        | arXiv        | RLVR + adaptive hard-example mining `Persistent-SI`   |
 
 ### Continual & Test-Time Adaptation
@@ -136,10 +135,8 @@ Medical agents that improve tool use, clinical skills, planning strategies, work
 | Year | Paper                                                                                                                                            | Venue                | Improvement Mechanism                                           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | --------------------------------------------------------------- |
 | 2026 | [Evolving Medical Imaging Agents via Experience-Driven Self-Skill Discovery (MACRO)](https://arxiv.org/abs/2603.05860) | arXiv | Verified trajectories → recurring tool sequences → autonomous composite-tool synthesis → skill registration `Meta-RSI` |
-| 2025 | [STELLA: Self-Evolving LLM Agent for Biomedical Research](https://arxiv.org/abs/2507.02004) [[Code](https://github.com/zaixizhang/STELLA)] | arXiv / bioRxiv | Evolving reasoning-template library + autonomous Tool Ocean expansion `Meta-RSI` |
 | 2025 | [ReflecTool](https://aclanthology.org/2025.acl-long.663/)                                                                                        | ACL 2025             | Experience-guided tool selection + verification `Persistent-SI` |
 | 2025 | [DrAgent: Empowering Large Language Models as Medical Agents for Multi-hop Medical Reasoning](https://aclanthology.org/2025.findings-emnlp.848/) | EMNLP Findings       | Clinical tools + recursive curriculum learning `Persistent-SI`  |
-| 2025 | [MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at Scale](https://arxiv.org/abs/2506.04405)                                   | arXiv                | Tool/environment-based SFT + RL `Persistent-SI`                 |
 
 ---
 
@@ -157,7 +154,6 @@ Evaluators and feedback systems are critical because recursive improvement is on
 | 2026 | [AutoMedBench: Towards Medical AutoResearch with Agentic AI Models](https://arxiv.org/abs/2606.01961) [[Code](https://github.com/AutoMedBench/AutoMedBench)] | arXiv | Stage-level Plan/Setup/Validate/Inference/Submit rubrics expose where agent workflows fail `RSI-Enabler` |
 | 2026 | [Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture](https://proceedings.mlr.press/v340/pugh26a.html) | MLHC 2026 | EHR-vs-patient-memory reconciliation + discrepancy severity detection `Safety / RSI-Enabler` |
 | 2025 | [Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems](https://aclanthology.org/2025.findings-acl.751/)                 | ACL Findings | Medical verifier + verifier-guided RL `RSI-Enabler`      |
-| 2025 | [MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models](https://aclanthology.org/2025.emnlp-main.143/) | EMNLP 2025   | Hallucination evaluator `RSI-Enabler`                    |
 
 ### Generator–Evaluator–Reflector Loops
 
@@ -220,8 +216,6 @@ Improved Improvement Strategy_(t+1)
 | 2026 | [Evolving Medical Imaging Agents via Experience-Driven Self-Skill Discovery (MACRO)](https://arxiv.org/abs/2603.05860) | arXiv | Experience → skill discovery → composite-tool synthesis → tool registration → learned reuse `Meta-RSI` |
 | 2026 | [Empowering AI Data Scientists Using a Multi-Agent LLM Framework with Self-Evolving Capabilities for Autonomous, Tool-Aware Biomedical Data Analyses](https://www.nature.com/articles/s41551-026-01634-6) | Nature Biomedical Engineering | Interactive exploration → workflow/tool learning → memory accumulation → improved future biomedical analysis `Meta-RSI` |
 | 2025 | [STELLA: Self-Evolving LLM Agent for Biomedical Research](https://arxiv.org/abs/2507.02004) [[Code](https://github.com/zaixizhang/STELLA)] | arXiv / bioRxiv | Experience → reasoning-template evolution + autonomous tool creation → expanded future capability `Meta-RSI` |
-| 2026 | [Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection](https://arxiv.org/abs/2606.02812) | arXiv | Experience accumulation + retrieval evolution + multi-agent policy optimization `Persistent-SI` |
-| 2026 | [MDTeamGPT: Mitigating Context Collapse and Enabling Self-Evolution in Medical Multi-Agent Reasoning](https://aclanthology.org/2026.findings-acl.1427/) [[Code](https://github.com/KaiChenNJ/MDTeamGPT)] | ACL Findings 2026 | Structured extraction of successful reasoning and errors into reusable evolving knowledge bases `Persistent-SI` |
 
 ---
 

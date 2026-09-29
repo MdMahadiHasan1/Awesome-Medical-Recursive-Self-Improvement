@@ -232,7 +232,6 @@ Improved Improvement Strategy_(t+1)
 | 2025 | [STELLA: Self-Evolving LLM Agent for Biomedical Research](https://arxiv.org/abs/2507.02004) [[Code](https://github.com/zaixizhang/STELLA)] | arXiv / bioRxiv | Experience → reasoning-template evolution + autonomous tool creation → expanded future capability `Meta-RSI` |
 | 2026 | [Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection](https://arxiv.org/abs/2606.02812) | arXiv | Experience accumulation + retrieval evolution + multi-agent policy optimization `Persistent-SI` |
 | 2026 | [EvoMDT: A Self-Evolving Multi-Agent System for Structured Clinical Decision-Making in Multi-Cancer](https://www.nature.com/articles/s41746-025-02304-8) [[Code](https://github.com/KesselZ/EvoMDT)] | npj Digital Medicine | Feedback/outcome signals evolve prompts, consensus weights, and retrieval scope `Persistent-SI` |
-| 2026 | [Evo-MedAgent: Beyond One-Shot Diagnosis with Agents That Remember, Reflect, and Improve](https://arxiv.org/abs/2604.14475) | arXiv | Cross-case reflection evolves clinical episodes, procedural heuristics, and tool reliability `Persistent-SI` |
 | 2026 | [MDTeamGPT: Mitigating Context Collapse and Enabling Self-Evolution in Medical Multi-Agent Reasoning](https://aclanthology.org/2026.findings-acl.1427/) [[Code](https://github.com/KaiChenNJ/MDTeamGPT)] | ACL Findings 2026 | Structured extraction of successful reasoning and errors into reusable evolving knowledge bases `Persistent-SI` |
 
 ---

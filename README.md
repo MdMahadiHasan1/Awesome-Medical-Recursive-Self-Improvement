@@ -108,10 +108,23 @@ Systems that automatically generate, critique, filter, repair, diversify, or pri
 
 Systems that accumulate reusable clinical experiences, successful strategies, failure histories, or medical knowledge across tasks.
 
-| Year | Paper                                                                                                                                                                  | Venue                | Memory Mechanism                                                      |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------- |
-| 2026 | [HealthFlow: Automating Electronic Health Record Analysis via a Strategically Self-Evolving Multi-Agent Framework](https://www.nature.com/articles/s41746-026-03097-0) | npj Digital Medicine | Persistent strategic knowledge from successes/failures `Meta-RSI`     |
-| 2025 | [ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://aclanthology.org/2025.acl-long.663/)                                                     | ACL 2025             | Long-term successful-process + tool-experience memory `Persistent-SI` |
+### Evolving Clinical Memory
+
+| Year | Paper | Venue | Memory / Knowledge Mechanism |
+| ---- | ----- | ----- | ---------------------------- |
+| 2026 | [Evo-MedAgent: Beyond One-Shot Diagnosis with Agents That Remember, Reflect, and Improve](https://arxiv.org/abs/2604.14475) | arXiv | Retrospective Clinical Episodes + evolving procedural heuristics + tool-reliability memory `Persistent-SI` |
+| 2026 | [TheraAgent: Multi-Agent Framework with Self-Evolving Memory and Evidence-Calibrated Reasoning for PET Theranostics](https://arxiv.org/abs/2603.13676) | arXiv | Self-Evolving Agentic Memory learns prognostic patterns from accumulated cases `Persistent-SI` |
+| 2026 | [SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis](https://arxiv.org/abs/2603.26122) | arXiv | EvoDerma-Mem continually refines diagnostic guidance from accumulated experience `Persistent-SI` |
+| 2026 | [ClinicalAgents: Multi-Agent Orchestration for Clinical Decision Making with Dual-Memory](https://arxiv.org/abs/2603.26182) | arXiv | Mutable working memory + experience memory + feedback-driven retrieval `RSI-Enabler` |
+| 2025 | [EndoAgent: A Memory-Guided Reflective Agent for Intelligent Endoscopic Vision-to-Decision Reasoning](https://arxiv.org/abs/2508.07292) [[Code](https://github.com/Tyyds-ai/EndoAgent)] | arXiv | Short-term action memory + long-term experiential memory + reflection `Persistent-SI` |
+
+### Evolving Medical Knowledge
+
+| Year | Paper | Venue | Memory / Knowledge Mechanism |
+| ---- | ----- | ----- | ---------------------------- |
+| 2026 | [MedKGent: A Large Language Model Agent Framework for Constructing Temporally Evolving Medical Knowledge Graph](https://www.nature.com/articles/s41746-026-03058-7) | npj Digital Medicine | Incremental temporal KG construction, confidence reinforcement, and conflict resolution `RSI-Enabler` |
+| 2026 | [An Autonomous AI Agent for Knowledge and Data Cooperation in ED Clinical Decision Support](https://www.nature.com/articles/s41746-026-02869-y) | npj Digital Medicine | Dynamic clinical data + established knowledge graph → adaptive tool selection `RSI-Enabler` |
+| 2026 | [MultiMed-RAG: Leveraging Multi-Source Knowledge and Agent Collaboration for Medical Tasks](https://www.nature.com/articles/s41746-026-02962-2) | npj Digital Medicine | Dynamic knowledge-source selection + evidence validation + multi-agent retrieval `RSI-Enabler` |
 
 ---
 

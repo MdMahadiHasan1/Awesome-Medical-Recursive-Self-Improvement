@@ -156,6 +156,9 @@ Evaluators and feedback systems are critical because recursive improvement is on
 
 | Year | Paper                                                                                                                                              | Venue        | Mechanism                                                |
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------- |
+| 2026 | [Route, Retrieve, Reflect, Repair: Self-Improving Agentic Framework for Visual Detection and Linguistic Reasoning in Medical Imaging](https://arxiv.org/abs/2601.08192) [[Code](https://github.com/faiyazabdullah/MultimodalMedAgent)] | arXiv | Router → Retriever → Reflector → Repairer + exemplar-memory accumulation `Inference-SI / Persistent-SI` |
+| 2026 | [AutoMedBench: Towards Medical AutoResearch with Agentic AI Models](https://arxiv.org/abs/2606.01961) [[Code](https://github.com/AutoMedBench/AutoMedBench)] | arXiv | Stage-level Plan/Setup/Validate/Inference/Submit rubrics expose where agent workflows fail `RSI-Enabler` |
+| 2026 | [Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture](https://proceedings.mlr.press/v340/pugh26a.html) | MLHC 2026 | EHR-vs-patient-memory reconciliation + discrepancy severity detection `Safety / RSI-Enabler` |
 | 2025 | [Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems](https://aclanthology.org/2025.findings-acl.751/)                 | ACL Findings | Medical verifier + verifier-guided RL `RSI-Enabler`      |
 | 2025 | [ReflecTool](https://aclanthology.org/2025.acl-long.663/)                                                                                          | ACL 2025     | Tool-use verifier + iterative refinement `Persistent-SI` |
 | 2025 | [Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering](https://www.ijcai.org/proceedings/2025/853)              | IJCAI 2025   | Grounding/localization feedback `RSI-Enabler`            |
@@ -178,10 +181,14 @@ Systems that learn through interaction with executable clinical, biomedical, EHR
 
 | Year | Paper / Environment                                                                                                         | Venue                | Role                                                                |
 | ---- | --------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------- |
+| 2026 | [HealthAgentBench: A Unified Benchmark Suite of Realistic Agentic Healthcare Environments for Challenging Frontier AI Agents](https://arxiv.org/abs/2606.31179) [[Code](https://github.com/microsoft/HealthAgentBench)] | arXiv / Microsoft Research | 54 executable healthcare tasks across 7 environments with task-specific verifiers `RSI-Enabler` |
+| 2026 | [AutoMedBench: Towards Medical AutoResearch with Agentic AI Models](https://arxiv.org/abs/2606.01961) [[Code](https://github.com/AutoMedBench/AutoMedBench)] | arXiv | Long-horizon autonomous medical-AI research environment with stage-level evaluation `RSI-Enabler` |
+| 2026 | [EvoClinician / Med-Inquire](https://arxiv.org/abs/2601.22964) [[Code](https://github.com/yf-he/EvoClinician)] | arXiv | Interactive patient + examination environment driving Diagnose → Grade → Evolve self-improvement `Persistent-SI` |
 | 2026 | [HealthFlow + EHRFlowBench](https://www.nature.com/articles/s41746-026-03097-0)                                             | npj Digital Medicine | Environment feedback → strategic evolution `Meta-RSI`               |
 | 2026 | [AgentClinic: A Multimodal Benchmark for Tool-Using Clinical AI Agents](https://www.nature.com/articles/s41746-026-02674-7) | npj Digital Medicine | Sequential multimodal clinical environment `RSI-Enabler`            |
 | 2025 | [MedAgentGym](https://arxiv.org/abs/2506.04405)                                                                             | arXiv                | Executable environment + scalable trajectories + RL `Persistent-SI` |
 | 2025 | [MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents](https://arxiv.org/abs/2501.14654)      | arXiv                | FHIR-compliant EHR environment `RSI-Enabler`                        |
+| 2025 | [MedAgentSim: Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions](https://papers.miccai.org/miccai-2025/0537-Paper2575.html) | MICCAI 2025 | Doctor–patient–measurement simulation + experience retrieval + iterative diagnostic improvement `Persistent-SI` |
 
 ---
 

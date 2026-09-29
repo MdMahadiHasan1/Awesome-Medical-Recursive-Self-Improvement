@@ -252,7 +252,6 @@ Self-improving medical AI must ensure that improvement does not introduce new cl
 | 2025 | [MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models](https://aclanthology.org/2025.emnlp-main.143/)               | EMNLP 2025        | Controlled medical hallucination detection with 10K QA pairs `RSI-Enabler`                            |
 | 2025 | [Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering](https://www.ijcai.org/proceedings/2025/853)                            | IJCAI 2025        | HEAL-MedVQA evaluates visual grounding and hallucination robustness using 67K VQA pairs `RSI-Enabler` |
 | 2025 | [MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes](https://aclanthology.org/2025.findings-acl.1159/)                              | ACL Findings 2025 | Medical error detection and correction across major clinical error categories `RSI-Enabler`           |
-| 2025 | [Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models](https://aclanthology.org/2025.findings-acl.350/) | ACL Findings 2025 | Medical hallucination taxonomy, evaluation, detection, and mitigation `Safety Survey`                 |
 
 ### Robustness, Forgetting & Safe Updating
 

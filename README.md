@@ -214,15 +214,6 @@ Improved Improvement Strategy_(t+1)
      ↺
 ```
 
-### Closest Current Medical Work
-
-| Year | Paper                                                                                                                                                                  | Venue                | Meta-Improvement Role                                                                              |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------------- |
-| 2026 | [HealthFlow: Automating Electronic Health Record Analysis via a Strategically Self-Evolving Multi-Agent Framework](https://www.nature.com/articles/s41746-026-03097-0) | npj Digital Medicine | Distills successes and failures into persistent strategic knowledge for future planning `Meta-RSI` |
-| 2025 | [FRAME](https://aclanthology.org/2025.findings-acl.400/)                                                                                                               | ACL Findings         | Generator–evaluator–reflector iterative refinement `Inference-SI`                                  |
-
-### Direct Medical Recursive / Meta Self-Improvement
-
 | Year | Paper | Venue | Meta-Improvement Role |
 | ---- | ----- | ----- | --------------------- |
 | 2026 | [MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution](https://arxiv.org/abs/2609.24838) [[Code](https://github.com/ImprintLab/MedRSI)] | arXiv | Diagnostic failure → clinical-cost prioritization → capability invention → validation → conservative registration → persistent capability expansion `Meta-RSI` |

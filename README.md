@@ -89,7 +89,6 @@ Systems that automatically generate, critique, filter, repair, diversify, or pri
 | Year | Paper                                                                                                                                                                               | Venue      | Data Improvement                                             |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
 | 2025 | [ReasonMed: A 370K Multi-Agent Generated Dataset for Advancing Medical Reasoning](https://aclanthology.org/2025.emnlp-main.1344/)                                                   | EMNLP 2025 | Generation → verification → error refinement `Persistent-SI` |
-| 2025 | [GMAI-VL-R1](https://arxiv.org/abs/2504.01886)                                                                                                                                      | arXiv      | Rejection-sampled reasoning synthesis `Persistent-SI`        |
 | 2025 | [A Modular Approach for Clinical SLMs Driven by Synthetic Data](https://aclanthology.org/2025.acl-long.950/)                                                                        | ACL 2025   | MediFlow synthetic clinical instructions `RSI-Enabler`       |
 | 2025 | [MCQG-SRefine: Multiple Choice Question Generation and Evaluation with Iterative Self-Critique, Correction, and Comparison Feedback](https://aclanthology.org/2025.naacl-long.538/) | NAACL 2025 | Iterative data critique/correction `Inference-SI`            |
 
@@ -158,7 +157,6 @@ Evaluators and feedback systems are critical because recursive improvement is on
 | 2026 | [AutoMedBench: Towards Medical AutoResearch with Agentic AI Models](https://arxiv.org/abs/2606.01961) [[Code](https://github.com/AutoMedBench/AutoMedBench)] | arXiv | Stage-level Plan/Setup/Validate/Inference/Submit rubrics expose where agent workflows fail `RSI-Enabler` |
 | 2026 | [Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture](https://proceedings.mlr.press/v340/pugh26a.html) | MLHC 2026 | EHR-vs-patient-memory reconciliation + discrepancy severity detection `Safety / RSI-Enabler` |
 | 2025 | [Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems](https://aclanthology.org/2025.findings-acl.751/)                 | ACL Findings | Medical verifier + verifier-guided RL `RSI-Enabler`      |
-| 2025 | [Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering](https://www.ijcai.org/proceedings/2025/853)              | IJCAI 2025   | Grounding/localization feedback `RSI-Enabler`            |
 | 2025 | [MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models](https://aclanthology.org/2025.emnlp-main.143/) | EMNLP 2025   | Hallucination evaluator `RSI-Enabler`                    |
 
 ### Generator–Evaluator–Reflector Loops

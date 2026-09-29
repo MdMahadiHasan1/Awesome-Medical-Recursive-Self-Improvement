@@ -38,6 +38,9 @@ Research defining the foundations of medical agents, self-evolving clinical syst
 
 | Year | Paper                                                                                                                                                            | Venue        | RSI Relevance         |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------- |
+| 2026 | [AI Agents in Clinical Practice: An Evidence Map](https://www.nature.com/articles/s41746-026-02960-4) | npj Digital Medicine | Clinical-agent autonomy, deployment, and self-learning landscape `RSI-Enabler` |
+| 2026 | [The Role of Agentic Artificial Intelligence in Healthcare: A Scoping Review](https://www.nature.com/articles/s41746-026-02517-5) | npj Digital Medicine | Agentic healthcare systems, autonomy, adaptation, and clinical deployment `RSI-Enabler` |
+| 2026 | [Multimodal Artificial Intelligence Agents in Healthcare: A Scoping Review](https://www.nature.com/articles/s41746-026-03060-z) | npj Digital Medicine | Multimodal agents, tools, memory, orchestration, and clinical environments `RSI-Enabler` |
 | 2026 | [The Path to Self-Evolving Clinical Systems: Scaling Medical Agents from Assistance to Autonomy](https://arxiv.org/abs/2607.11175)                               | arXiv        | `Medical-RSI Survey`  |
 | 2025 | [A Survey of LLM-based Agents in Medicine: How Far Are We from Baymax?](https://aclanthology.org/2025.findings-acl.539/)                                         | ACL Findings | `RSI-Enabler`         |
 | 2025 | [Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models](https://aclanthology.org/2025.findings-acl.350/) | ACL Findings | `Safety / Evaluation` |

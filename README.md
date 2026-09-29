@@ -230,6 +230,21 @@ Improved Improvement Strategy_(t+1)
 | 2025 | [FRAME](https://aclanthology.org/2025.findings-acl.400/)                                                                                                               | ACL Findings         | Generator–evaluator–reflector iterative refinement `Inference-SI`                                  |
 | 2026 | [BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics](https://arxiv.org/abs/2608.16211) [[Code](https://github.com/AutoMedBench/Benchmark-as-Teacher)] | arXiv | **Benchmark-as-Teacher (BaT)** closes the evaluation → curriculum → training → re-evaluation loop: stage-level rubrics identify weaknesses, **BiCuRL** selects the next training curriculum from a Stage Bank, rubric-verified rollouts update the policy with GRPO, and the improved checkpoint is recursively returned to evaluation `Meta-RSI` |
 
+### Direct Medical Recursive / Meta Self-Improvement
+
+| Year | Paper | Venue | Meta-Improvement Role |
+| ---- | ----- | ----- | --------------------- |
+| 2026 | [MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution](https://arxiv.org/abs/2609.24838) [[Code](https://github.com/ImprintLab/MedRSI)] | arXiv | Diagnostic failure → clinical-cost prioritization → capability invention → validation → conservative registration → persistent capability expansion `Meta-RSI` |
+| 2026 | [BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics](https://arxiv.org/abs/2608.16211) [[Code](https://github.com/AutoMedBench/Benchmark-as-Teacher)] | arXiv | Benchmark failure → stage curriculum selection → rubric-verified GRPO → checkpoint update → re-evaluation `Meta-RSI` |
+| 2026 | [Evolving Medical Imaging Agents via Experience-Driven Self-Skill Discovery (MACRO)](https://arxiv.org/abs/2603.05860) | arXiv | Experience → skill discovery → composite-tool synthesis → tool registration → learned reuse `Meta-RSI` |
+| 2026 | [Empowering AI Data Scientists Using a Multi-Agent LLM Framework with Self-Evolving Capabilities for Autonomous, Tool-Aware Biomedical Data Analyses](https://www.nature.com/articles/s41551-026-01634-6) | Nature Biomedical Engineering | Interactive exploration → workflow/tool learning → memory accumulation → improved future biomedical analysis `Meta-RSI` |
+| 2025 | [STELLA: Self-Evolving LLM Agent for Biomedical Research](https://arxiv.org/abs/2507.02004) [[Code](https://github.com/zaixizhang/STELLA)] | arXiv / bioRxiv | Experience → reasoning-template evolution + autonomous tool creation → expanded future capability `Meta-RSI` |
+| 2026 | [EvoClinician: A Self-Evolving Agent for Multi-Turn Medical Diagnosis via Test-Time Evolutionary Learning](https://arxiv.org/abs/2601.22964) [[Code](https://github.com/yf-he/EvoClinician)] | arXiv | Diagnose → process grading → strategy/prompt/memory evolution → next-case improvement `Persistent-SI / Meta-RSI` |
+| 2026 | [Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection](https://arxiv.org/abs/2606.02812) | arXiv | Experience accumulation + retrieval evolution + multi-agent policy optimization `Persistent-SI` |
+| 2026 | [EvoMDT: A Self-Evolving Multi-Agent System for Structured Clinical Decision-Making in Multi-Cancer](https://www.nature.com/articles/s41746-025-02304-8) [[Code](https://github.com/KesselZ/EvoMDT)] | npj Digital Medicine | Feedback/outcome signals evolve prompts, consensus weights, and retrieval scope `Persistent-SI` |
+| 2026 | [Evo-MedAgent: Beyond One-Shot Diagnosis with Agents That Remember, Reflect, and Improve](https://arxiv.org/abs/2604.14475) | arXiv | Cross-case reflection evolves clinical episodes, procedural heuristics, and tool reliability `Persistent-SI` |
+| 2026 | [MDTeamGPT: Mitigating Context Collapse and Enabling Self-Evolution in Medical Multi-Agent Reasoning](https://aclanthology.org/2026.findings-acl.1427/) [[Code](https://github.com/KaiChenNJ/MDTeamGPT)] | ACL Findings 2026 | Structured extraction of successful reasoning and errors into reusable evolving knowledge bases `Persistent-SI` |
+
 ---
 
 <a name="safety-reliability-governance"></a>

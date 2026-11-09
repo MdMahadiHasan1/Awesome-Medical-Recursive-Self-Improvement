@@ -1,0 +1,17 @@
+name: Report a catalog correction
+description: Flag a broken link, duplicate, or inaccurate entry.
+title: "[Correction] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Affected entry or section URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction and supporting evidence
+      description: Explain what needs to change and link a primary source when available.
+    validations:
+      required: true

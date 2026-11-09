@@ -1,2 +1,0 @@
-# Keep repository maintenance tooling out of the research catalog's language statistics.
-scripts/check_catalog.py -linguist-detectable

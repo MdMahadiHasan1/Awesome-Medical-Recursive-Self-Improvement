@@ -229,7 +229,6 @@ Improved Improvement Strategy_(t+1)
 
 | Year | Paper | Venue | Meta-Improvement Role |
 | ---- | ----- | ----- | --------------------- |
-
 | 2026 | [RSIMed: Scaling Medical Foundation Models beyond Limited Clinical Data via Retrieval-Grounded Self-Evolution](https://arxiv.org/abs/2611.18646) | arXiv | Retrieval-grounded question generation → evidence-based validation → solver-feedback-driven curriculum adaptation → reinforcement learning → improved diagnostic solver `Meta-RSI` |
 | 2026 | [MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution](https://arxiv.org/abs/2609.24838) [[Code](https://github.com/ImprintLab/MedRSI)] | arXiv | Diagnostic failure → clinical-cost prioritization → capability invention → validation → conservative registration → persistent capability expansion `Meta-RSI` |
 | 2026 | [BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics](https://arxiv.org/abs/2608.16211) [[Code](https://github.com/AutoMedBench/Benchmark-as-Teacher)] | arXiv | Benchmark failure → stage curriculum selection → rubric-verified GRPO → checkpoint update → re-evaluation `Meta-RSI` |
